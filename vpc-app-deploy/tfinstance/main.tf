@@ -8,11 +8,11 @@ variable "ibmcloud_timeout" {
 }
 
 variable region {
-  default = "us-south"
+  default = "us-east"
 }
 
 variable zone {
-  default = "us-south-1"
+  default = "us-east-1"
 }
 
 variable "basename" {
